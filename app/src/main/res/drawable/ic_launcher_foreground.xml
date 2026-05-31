@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Viewfinder Outer Corner Brackets -->
+    <path
+        android:pathData="M 31,41 L 31,36 Q 31,31 36,31 L 41,31
+                          M 67,31 L 72,31 Q 77,31 77,36 L 77,41
+                          M 77,67 L 77,72 Q 77,77 72,77 L 67,77
+                          M 41,77 L 36,77 Q 31,77 31,72 L 31,67"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- QR Code Finder Pattern 1: Top-Left -->
+    <path
+        android:pathData="M 38,38 h 8 v 8 h -8 z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 40,40 h 4 v 4 h -4 z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- QR Code Finder Pattern 2: Top-Right -->
+    <path
+        android:pathData="M 62,38 h 8 v 8 h -8 z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 64,40 h 4 v 4 h -4 z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- QR Code Finder Pattern 3: Bottom-Left -->
+    <path
+        android:pathData="M 38,62 h 8 v 8 h -8 z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 40,64 h 4 v 4 h -4 z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- QR Code Custom Data Pixels/Modules -->
+    <path
+        android:pathData="M 50,37 h 2 v 2 h -2 z
+                          M 53,38 h 2 v 2 h -2 z
+                          M 56,37 h 2 v 2 h -2 z
+                          M 50,42 h 2 v 2 h -2 z
+                          M 53,44 h 2 v 2 h -2 z
+                          M 56,43 h 2 v 2 h -2 z
+                          M 40,51 h 2 v 2 h -2 z
+                          M 44,53 h 2 v 2 h -2 z
+                          M 48,50 h 2 v 2 h -2 z
+                          M 51,52 h 2 v 2 h -2 z
+                          M 54,51 h 2 v 2 h -2 z
+                          M 57,53 h 2 v 2 h -2 z
+                          M 61,51 h 2 v 2 h -2 z
+                          M 65,53 h 2 v 2 h -2 z
+                          M 69,50 h 2 v 2 h -2 z
+                          M 50,61 h 2 v 2 h -2 z
+                          M 53,63 h 2 v 2 h -2 z
+                          M 56,60 h 2 v 2 h -2 z
+                          M 50,67 h 2 v 2 h -2 z
+                          M 53,69 h 2 v 2 h -2 z
+                          M 56,66 h 2 v 2 h -2 z
+                          M 61,61 h 2 v 2 h -2 z
+                          M 64,64 h 2 v 2 h -2 z
+                          M 67,61 h 2 v 2 h -2 z
+                          M 70,63 h 2 v 2 h -2 z
+                          M 61,67 h 2 v 2 h -2 z
+                          M 64,69 h 2 v 2 h -2 z
+                          M 67,67 h 2 v 2 h -2 z
+                          M 70,70 h 2 v 2 h -2 z"
+        android:fillColor="#FFFFFF" />
+
+</vector>

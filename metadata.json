@@ -1,0 +1,6 @@
+{
+  "name": "QR Сканер",
+  "description": "Современный сканер QR и штрихкодов с премиальным минималистичным дизайном.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
