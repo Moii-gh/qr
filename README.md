@@ -82,14 +82,6 @@ app/build/outputs/apk/debug/app-debug.apk
 
 ## Конфигурация
 
-Проект использует Secrets Gradle Plugin и поддерживает локальный файл `.env`.
-
-```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-Текущая QR-функциональность работает локально и не требует API-ключа. Значение из `.env.example` используется как безопасный placeholder для сборки.
-
 Для release-подписи используйте локальный `local.properties` или переменные окружения:
 
 ```properties

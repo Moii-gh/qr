@@ -1,38 +1,48 @@
+# --- Android & Gradle ---
+.gradle/
+.kotlin/
+/build/
+/*/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+signing.properties
+secrets.properties
+
+# --- IDEs (Android Studio, VS Code, etc.) ---
 *.iml
 .idea/
-.gradle
-.kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-.env
-.env.*
-!.env.example
-debug.keystore
-*.jks
-*.keystore
+.vscode/
+*.ipr
+*.iws
 
+# --- OS / System ---
+.DS_Store
+Thumbs.db
+
+# --- Node / JavaScript (for toolings/scripts if any) ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# --- Environment & Configuration ---
+.env
+.env.*
+!.env.example
+
+# --- Build Artifacts & Credentials ---
 *.apk
 *.aab
 *.apks
 *.idsig
-
-pepk_out.zip
-upload_certificate.pem
+*.jks
+*.keystore
 *.pem
+pepk_out.zip
+debug.keystore
+
+# --- Temporary & Diagnostic Files ---
 temp_restored.webp
+
